@@ -33,12 +33,12 @@ if __name__=="__main__":
                df = pd.read_csv(output_file_path)
                prediction_column = df["Prediction"]
                dict_replace = {
-                    1 : "Spruce/Fir"
-                    2 : "Lodgepole Pine"
-                    3 : "Ponderosa Pine"
-                    4 : "Cottonwood/Willow"
-                    5 : "Aspen"
-                    6 : "Douglas-fir"
+                    1 : "Spruce/Fir",
+                    2 : "Lodgepole Pine",
+                    3 : "Ponderosa Pine",
+                    4 : "Cottonwood/Willow",
+                    5 : "Aspen",
+                    6 : "Douglas-fir",
                     7 : "Krummholz"
                     }
                prediction_in_words = prediction_column.replace(dict_replace)
