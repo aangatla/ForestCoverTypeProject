@@ -49,7 +49,7 @@ if __name__=="__main__":
 
                logging.info("Displaying the prediction result in webpage")
                st.subheader("Result")
-               st.table(output_df)
+               st.data(output_df)
                st.subheader("F1 Score of the model")
                score_dict = {"Train Score" : f1_train_score,
                              "Test Score" : f1_test_score}
