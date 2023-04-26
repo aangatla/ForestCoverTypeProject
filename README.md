@@ -10,12 +10,12 @@ https://aangatla-forestcovertypeproject-app-xm4f7p.streamlit.app/
 
 # **Installation guide**
 
-Step1:Install the setup.py file:
+Step1:Install the setup.py file:</br>
 pip install .
 
 
 
-Step2: Run the streamlit app:
+Step2: Run the streamlit app:</br>
 streamlit run app.py
 
 
@@ -23,7 +23,7 @@ streamlit run app.py
 
 # ***How to do the Predictions using API***
 
-Step1: Go to the following url:
+Step1: Go to the following url:</br>
 https://aangatla-forestcovertypeproject-app-xm4f7p.streamlit.app/
 
 Step2: Insert the file at the required location
