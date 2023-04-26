@@ -26,7 +26,7 @@ streamlit run app.py
 Step1: Go to the following url:</br>
 https://aangatla-forestcovertypeproject-app-xm4f7p.streamlit.app/
 
-Step2: Insert the file at the required location
+Step2: Upload the csv file for prediction
 
 Step3: Wait for the prediction.
 
