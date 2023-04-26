@@ -30,8 +30,8 @@ Step2: Insert the file at the required location
 
 Step3: Wait for the prediction.
 
-For making it easier for testing the model I have provided
-some test files in the github repository of this
+To make it easier for testing the model I have provided
+some test files in the github repository in the test folder of this
 project.You can download one of those csv files and
 can use them for testing the app.
 
