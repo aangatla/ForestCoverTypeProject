@@ -1,4 +1,4 @@
-# *Project Info*
+
 # ***💳 Forest Cover Type Prediction***
 This is a multiclass classification problem.In this we have to predict the type of Forest Cover type of given input data.An api using streamlit has been created,with the help of the api we can take input data and do the prediction.
 
