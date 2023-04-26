@@ -4,8 +4,8 @@ This is a multiclass classification problem.In this we have to predict the type 
 
 For information about dataset and project check the jupyter file and html file present in the notebook folder in the github repository of this project.
 
-# **API**
-
+# **API:**
+https://aangatla-forestcovertypeproject-app-xm4f7p.streamlit.app/
 
 
 # **Installation guide**
@@ -24,6 +24,7 @@ streamlit run app.py
 # ***How to do the Predictions using API***
 
 Step1: Go to the following url:
+https://aangatla-forestcovertypeproject-app-xm4f7p.streamlit.app/
 
 Step2: Insert the file at the required location
 
