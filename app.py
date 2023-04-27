@@ -32,10 +32,19 @@ if __name__=="__main__":
                output_file_path = start_batch_prediction(input_file,transformer_object_path,model_path)
                df = pd.read_csv(output_file_path)
                prediction_column = df["Prediction"]
-               actual_output = df[TARGET_COLUMN]
+               dict_replace = {
+                    1 : "Spruce/Fir",
+                    2 : "Lodgepole Pine",
+                    3 : "Ponderosa Pine",
+                    4 : "Cottonwood/Willow",
+                    5 : "Aspen",
+                    6 : "Douglas-fir",
+                    7 : "Krummholz"
+                    }
+               prediction_in_words = prediction_column.replace(dict_replace)
 
-               output_df = pd.DataFrame({"predicted_result":prediction_column,
-                                         "actual_output": actual_output})
+               output_df = pd.DataFrame({"prediction":prediction_column,
+                                         "prediction_in_words": prediction_in_words})
 
 
                logging.info("Displaying the prediction result in webpage")

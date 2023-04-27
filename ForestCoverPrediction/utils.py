@@ -5,9 +5,9 @@ import os,sys
 import yaml
 import numpy as np
 import dill
-import streamlit as st
 
-@st.cache_data
+
+
 def read_csvfile(file_path:str)->pd.DataFrame:
     """
     Description: This function return csv file as dataframe
@@ -55,7 +55,7 @@ def save_object(file_path: str, obj: object) -> None:
     except Exception as e:
         raise ForestCoverPredictionException(e, sys) from e
 
-@st.cache_data
+        
 def load_object(file_path: str, ) -> object:
     try:
         if not os.path.exists(file_path):
