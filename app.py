@@ -12,7 +12,7 @@ st.header("Forest Cover Type Prediction Application")
 
 st.subheader("Please upload the input csv file:")
 st.text("To get CSV files for testing the app go to github repository.Link is given below")
-st.text("Click here for Github repository[link](%s)" % url)
+st.write("Click here for Github repository[link](%s)" % url)
 input_file = st.file_uploader("Upload the file")
 
 print(__name__)
