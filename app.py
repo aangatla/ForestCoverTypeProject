@@ -9,10 +9,11 @@ import streamlit as st
 import pandas as pd
 
 st.header("Forest Cover Type Prediction Application")
+url = "https://github.com/aangatla/ForestCoverTypeProject/tree/main/Test"
 
 st.subheader("Please upload the input csv file:")
-st.text("To get CSV files for testing the app go to github repository.Link is given below")
-st.write("Click here for Github repository[link](%s)" % url)
+st.write("To get CSV files for testing the app go to [link](%s) and download the files." % url)
+
 input_file = st.file_uploader("Upload the file")
 
 print(__name__)
